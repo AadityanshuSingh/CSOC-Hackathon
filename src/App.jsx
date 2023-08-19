@@ -8,7 +8,7 @@ function App() {
     <Grid templateAreas={`"nav nav"
                           "icon data"`}>
 
-    <GridItem bg={'orange.300'} area={'nav'}>
+    <GridItem  area={'nav'}>
       <Nav/>
     </GridItem>
     <GridItem bg={'pink.300'} area={'icon'}>
